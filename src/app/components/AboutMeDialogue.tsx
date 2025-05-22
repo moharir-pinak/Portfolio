@@ -41,7 +41,7 @@ export default function AboutMeDialog() {
               
               </p>
               <Button asChild className="bg-gray-700 hover:bg-gray-600 text-white px-6 py-2 rounded-md transition-colors">
-                <a href="/path-to-your-cv.pdf" download>
+                <a href="../../../public/Pinak_Moharir_web_dev_ml.pdf" download>
                   Download CV
                 </a>
               </Button>
