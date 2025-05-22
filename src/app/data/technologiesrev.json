@@ -1,0 +1,23 @@
+[
+    {
+      "name": "HTML",
+      "icon": "/assets/icons/icons8-html-48.png"
+    },
+    {
+      "name": "CSS",
+      "icon": "/assets/icons/icons-css-48.png"
+    },
+    {
+      "name": "React JS",
+      "icon": "/assets/icons/react.svg"
+    },
+    {
+      "name": "Machine Learning",
+      "icon": "/assets/icons/ML.png"
+    },
+    {
+      "name": "Python",
+      "icon": "/assets/icons/icons8-python-48.png"
+    }
+  ]
+  

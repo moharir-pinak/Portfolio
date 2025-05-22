@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Gym Hub",
+    "description": "A comprehensive fitness platform for exercise discovery and tracking",
+    "details": "Gym Hub is a modern web application that helps users discover and track exercises for their fitness journey. Built with Next.js and TypeScript, it features a clean, responsive design with dark mode support. The platform includes exercise categorization, search functionality, and detailed exercise information. Technologies used: Next.js, TypeScript, Tailwind CSS, Framer Motion, and Vercel for deployment.",
+    "images": [
+      "/assets/projects/gymhub-1.png",
+      "/assets/projects/gymhub-2.png"
+    ],
+    "demoLink": "https://gym-hub-iota.vercel.app/",
+    "sourceLink": "https://github.com/moharir-pinak/gym-hub"
+  },
+  {
+    "id": 2,
+    "title": "Portfolio Website",
+    "description": "Personal portfolio showcasing my projects and skills",
+    "details": "A modern, responsive portfolio website built with Next.js and TypeScript. Features include a dynamic preloader, interactive UI elements, project showcase, and contact form. The design incorporates smooth animations and transitions using Framer Motion. Technologies used: Next.js, TypeScript, Tailwind CSS, Framer Motion, and Vercel for deployment.",
+    "images": [
+      "/assets/projects/portfolio-1.png",
+      "/assets/projects/portfolio-2.png"
+    ],
+    "demoLink": "https://pinak-portfolio-47.vercel.app/",
+    "sourceLink": "https://github.com/moharir-pinak/portfolio"
+  },
+  {
+    "id": 3,
+    "title": "Multiple Disease Prediction",
+    "description": "Machine Learning-based disease prediction system",
+    "details": "A comprehensive disease prediction system that uses machine learning to predict multiple diseases based on symptoms. Built with Python and Streamlit, it provides an intuitive user interface for inputting symptoms and receiving predictions. The system uses various ML algorithms to provide accurate predictions. Technologies used: Python, Scikit-learn, Pandas, Streamlit, and various machine learning algorithms.",
+    "images": [
+      "/assets/projects/disease-1.png",
+      "/assets/projects/disease-2.png"
+    ],
+    "demoLink": "https://multiple-disease-prediction-01.streamlit.app/",
+    "sourceLink": "https://github.com/moharir-pinak/multiple_diseases_prediction"
+  }
+]

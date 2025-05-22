@@ -1,0 +1,56 @@
+[
+    {
+      "name": "HTML",
+      "icon": "/assets/icons/icons8-html-48.png"
+    },
+
+    {
+      "name": "React JS",
+      "icon": "/assets/icons/react.svg"
+    },
+    {
+      "name": "Machine Learning",
+      "icon": "/assets/icons/ML.png"
+    },
+    {
+      "name": "Python",
+      "icon": "/assets/icons/icons8-python-48.png"
+    },
+    {
+      "name": "Node.js",
+      "icon": "/assets/icons/node.svg"
+    },
+    {
+      "name": "Django",
+      "icon": "/assets/icons/django.svg"
+    },
+    {
+      "name": "Express",
+      "icon": "/assets/icons/express.svg"
+    },
+    {
+      "name": "GitHub",
+      "icon": "/assets/icons/github.svg"
+    },
+    {
+      "name": "VS Code",
+      "icon": "/assets/icons/vscode.svg"
+    },
+    {
+      "name": "Cursor",
+      "icon": "/assets/icons/cursor.svg"
+    },
+    {
+      "name": "Next.js",
+      "icon": "/assets/icons/nextjs.svg"
+    },
+    {
+      "name": "CSS",
+      "icon": "/assets/icons/css.svg"
+    },
+    {
+      "name": "MongoDB",
+      "icon": "/assets/icons/mongodb.svg"
+    }
+  ]
+  
