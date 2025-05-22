@@ -1,7 +1,15 @@
 import React from 'react';
 import Image from 'next/image';
 
-export default function Card({ title, subtitle, description, image, onClick }) {
+interface CardProps {
+  title: string;
+  subtitle: string;
+  description: string;
+  image?: string;
+  onClick: () => void;
+}
+
+export default function Card({ title, subtitle, description, image, onClick }: CardProps) {
   return (
     <article
       onClick={onClick}

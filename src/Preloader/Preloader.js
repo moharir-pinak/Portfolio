@@ -1,23 +1,12 @@
-import { useState, useEffect } from "react";
-import { gsap, CSSPlugin, Expo } from "gsap";
+import { useState, useEffect, useCallback } from "react";
+import { gsap, Expo } from "gsap";
 import styled from "styled-components";
 
 const Preloader = ({ setLoading }) => {
   const [counter, setCounter] = useState(0);
-  useEffect(() => {
-    const count = setInterval(() => {
-      setCounter((counter) =>
-        counter < 100
-          ? counter + 1
-          : (clearInterval(count), setCounter(100), reveal())
-      );
-    }, 25);
-  }, []);
-
-  async function reveal() {
-    const t1 =  gsap.timeline({});
-
-      await t1
+  const reveal = useCallback(async () => {
+    const t1 = gsap.timeline({});
+    await t1
       .to(".follow", {
         width: "100%",
         ease: Expo.easeInOut,
@@ -32,9 +21,20 @@ const Preloader = ({ setLoading }) => {
       })
       .to(".content", { width: "100%", ease: Expo.easeInOut, duration: 0.7 });
     if (!t1.isActive()) {
-       await setLoading(false);
+      await setLoading(false);
     }
-  }
+  }, [setLoading]);
+
+  useEffect(() => {
+    const count = setInterval(() => {
+      setCounter((counter) =>
+        counter < 100
+          ? counter + 1
+          : (clearInterval(count), setCounter(100), reveal())
+      );
+    }, 25);
+    return () => clearInterval(count);
+  }, [reveal]);
 
   return (
     <AppContainer>

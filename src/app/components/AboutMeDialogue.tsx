@@ -28,7 +28,7 @@ export default function AboutMeDialog() {
             <DialogDescription className="text-gray-300">
               <p className="mb-4">
                 
-                Hi, I'm Pinak Moharir, a passionate MERN stack developer with a keen eye for creating
+                Hi, I{'\''}m Pinak Moharir, a passionate MERN stack developer with a keen eye for creating
                 elegant, efficient, and user-friendly web applications. With a strong foundation in
                 MongoDB, Express.js, React, and Node.js, I specialize in building full-stack
                 applications that are both performant and scalable.
@@ -36,7 +36,7 @@ export default function AboutMeDialog() {
              
                 My journey in web development started with a fascination for creating interactive user
                 interfaces, which led me to dive deep into modern JavaScript frameworks and backend
-                technologies. I'm constantly learning and adapting to new technologies to stay at the
+                technologies. I{'\''}m constantly learning and adapting to new technologies to stay at the
                 forefront of web development.
               
               </p>

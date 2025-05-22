@@ -12,15 +12,20 @@ const Preloader = ({ children }: PreloaderProps) => {
 
   useEffect(() => {
     const count = setInterval(() => {
-      setCounter((counter) =>
-        counter < 100
-          ? counter + 1
-          : (clearInterval(count), setCounter(100), setTimeout(() => setLoading(false), 1000))
-      );
+      setCounter((counter) => {
+        if (counter < 100) {
+          return counter + 1;
+        } else {
+          clearInterval(count);
+          setCounter(100);
+          setTimeout(() => setLoading(false), 1000);
+          return 100;
+        }
+      });
     }, 25);
 
     return () => clearInterval(count);
-  }, []);
+  }, [setLoading]);
 
   if (loading) {
     return (

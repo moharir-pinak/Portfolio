@@ -39,7 +39,7 @@ const MatterBackground: React.FC = () => {
         size: Math.random() * 30 + 10,
         speedX: (Math.random() - 0.5) * 0.5,
         speedY: (Math.random() - 0.5) * 0.5,
-        type: ['square', 'hexagon', 'pentagon', 'triangle'][Math.floor(Math.random() * 4)] as any,
+        type: ['square', 'hexagon', 'pentagon', 'triangle'][Math.floor(Math.random() * 4)] as 'square' | 'hexagon' | 'pentagon' | 'triangle',
         rotation: Math.random() * Math.PI * 2,
         rotationSpeed: (Math.random() - 0.5) * 0.02
       })
